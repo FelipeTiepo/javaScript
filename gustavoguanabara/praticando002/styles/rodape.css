@@ -1,0 +1,7 @@
+
+.rodape__criador{
+    color: var(--cor-da-fonte);
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}

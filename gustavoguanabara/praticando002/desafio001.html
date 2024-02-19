@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador Idade</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Verificador de Idade</h1>
+    </header>
+    <section class="conteudo">
+        <div class="conteudo__pergunta1">
+            <p class="conteudo__pergunta1__texto">Ano de nascimento:</p>
+            <input type="number" name="idade" id="idade" min="0" max="3">
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="feminino">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div class="conteudo__pergunta2" id="conteudo__pergunta2">
+      
+        </div>
+        
+    </section>
+    <footer class="rodape">
+        <p class="rodape__criador">@Felipe_Tiepo</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

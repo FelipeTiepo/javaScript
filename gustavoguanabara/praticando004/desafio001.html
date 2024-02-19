@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Tabuada</h1>
+    </header>
+    <section class="conteudo">
+        <div class="conteudo__pergunta1">
+            <p class="conteudo__pergunta1__texto">Número: </p>
+            <input type="number" name="numero" id="txtn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        </div>
+        
+        <div>
+            <select name="tabuada" id="seltab" size="10"></select>
+        </div>
+        
+    </section>
+    <footer class="rodape">
+        <p class="rodape__criador">@Felipe_Tiepo</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

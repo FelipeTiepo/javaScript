@@ -1,0 +1,6 @@
+.cabecalho{
+    color: var(--cor-da-fonte);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
